@@ -1,0 +1,69 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 10% 1fr 10%;
+  height: 100vh;
+}
+header {
+  background-color: rgb(226, 149, 178);
+  grid-column: 1/4;
+}
+main {
+  background-color: rgb(231, 206, 234);
+}
+aside {
+  background-color: rgb(192, 238, 238);
+}
+footer {
+  background-color: rgb(178, 138, 216);
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.section_items {
+  background-color: rgb(162, 94, 181);
+  color: white;
+  border: 1px solid rgb(112, 25, 155);
+  height: 50%;
+  width: 70%;
+  text-align: center;
+}
+.heade__div {
+  color: white;
+  text-align: center;
+}
+.main__section {
+  color: white;
+  text-align: center;
+}
+.aside_div {
+  color: white;
+  text-align: center;
+}
+.main__div-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  height: 70vh;
+  gap: 5px;
+}
+.main__section-items {
+  background-color: rgb(234, 133, 200);
+  color: white;
+  height: 10vh;
+  width: 40vh;
+  text-align: center;
+}
+.main__section-items3 {
+  background-color: rgb(234, 133, 200);
+  color: white;
+  grid-column: 1/4;
+  height: 10vh;
+  width: 100vh;
+  text-align: center;
+}
+.main__section {
+  height: 40%;
+}
